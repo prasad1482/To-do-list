@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  
+    
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-bar{
+    border: 2px solid #000;
+    text-align: center;
+    min-height: 100px;
+    min-width: 100%;
+
+}
+.main-ctr{
+  border: #000 solid 2px;
+  min-height: 50vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements */
+
+}
+#list{
+  list-style: none;
+  padding: 10;
+  margin-top: 10px;
+  
+}
+.main-ctr #input{
+  margin-top: 50px;
+  min-height: 25px;
+ 
+}
+.main-ctr #add-btn{
+  margin-left: 220px;
+  margin-top: -25px;
+  min-height: 2.9vh;
+}
