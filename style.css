@@ -39,10 +39,20 @@ body {
 .main-ctr #input{
   margin-top: 50px;
   min-height: 25px;
+  width: 40%;
+
  
 }
 .main-ctr #add-btn{
   margin-left: 220px;
   margin-top: -25px;
   min-height: 2.9vh;
+  min-width: 8vh;
+}
+.list-ctr{
+  border: #000 solid;
+  min-width: 50%;
+  min-height: 50vh;
+  justify-content: center;
+  
 }

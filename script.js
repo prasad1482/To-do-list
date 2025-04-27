@@ -23,6 +23,7 @@ addBtn.addEventListener("click",function(){
     const delBtn=document.createElement("button");
     delBtn.textContent="Delete";
     delBtn.style.marginLeft="5px";
+    delBtn.style.marginTop="5px";
     delBtn.addEventListener("click",function(){
         li.remove();
 
